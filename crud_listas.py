@@ -7,7 +7,7 @@ app = FastAPI()
 
 class Usuario(BaseModel):
     id: int
-    nome: str
+    nome: Optional[str]
     senha: str
 
 
